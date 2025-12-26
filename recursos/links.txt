@@ -1,0 +1,4 @@
+[Documentación MySQL](https://dev.mysql.com/doc/)
+[W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+[Documentación PostgreSQL](https://www.postgresql.org/docs/)
+[HackerRank](https://www.hackerrank.com/dashboard)
