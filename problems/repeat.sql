@@ -1,0 +1,13 @@
+
+-- IMPRIME * 20 VECES EN CADA FILA(TIPO PIRAMIDE)
+-- VA DE 20 HASTA 1
+
+SELECT REPEAT('* ', @NUMBER := @NUMBER - 1) 
+FROM information_schema.tables, (SELECT @NUMBER := 21) AS temp
+LIMIT 20;
+
+
+--LO MISMO PERO VA DE 1 HASTA 20
+SELECT REPEAT('* ', @NUMBER := @NUMBER + 1) 
+FROM information_schema.tables, (SELECT @NUMBER := 0) AS temp
+LIMIT 20;

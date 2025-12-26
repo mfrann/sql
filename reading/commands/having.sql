@@ -1,1 +1,7 @@
 SELECT COUNT(age) FROM users HAVING COUNT(age) > 17
+
+
+
+--CONTAR CUANTOS EMPLEADOS HAY EN CADA DEPARTAMENTO > 5
+
+SELECT id, COUNT(*) AS Total_Empleados FROM empleados GROUP BY departamento HAVING COUNT(*) > 5

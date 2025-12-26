@@ -1,0 +1,13 @@
+--ACTUALIZAR UNA TABLA
+
+ALTER TABLE familia
+ADD surname VARCHAR(50)  -- AÑADIR
+
+ALTER TABLE familia
+RENAME COLUMN surname TO apellido -- RENOMBRAR
+
+ALTER TABLE familia
+MODIFY COLUMN apellido VARCHAR(20) -- MODIFICAR
+
+ALTER TABLE familia
+DROP COLUMN apellido; -- ELIMINAR
